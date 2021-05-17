@@ -1,0 +1,97 @@
+
+html body ul li {
+  margin: 0;
+  padding: 0;
+}
+
+.main_article {
+  margin: 20px auto;
+  max-width: 600px;
+}
+
+
+.main_content h1 {
+  font-family: 'Noto Serif', serif;
+  font-size: 3vw;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.main_heading {
+  margin: auto;
+  width: 80%;
+}
+
+.main_content {
+  margin: 80px auto;
+  width: 75%;
+}
+
+.main_image {
+  margin-bottom: 60px;
+}
+
+.main_image img {
+  width: 100%;
+}
+
+.main_image figcaption {
+  color: dimgray;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.3vw;
+  width: 90%;
+}
+
+.main_article .author .by-line {
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 700;
+}
+
+.main_article .date_socials .date {
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-size: 1vw;
+  font-weight: 500;
+}
+
+.main_article .article p {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.2rem;
+  line-height: 1.9rem;
+}
+
+.main_content a {
+  color: #000;
+  text-decoration: none;
+}
+
+
+.videoo{
+  margin-left: auto;
+  margin-right: auto;
+  width: 650px;
+  text-align: center;
+
+}
+
+.indir{
+ background-color: #e67e22;
+
+ border: none;
+
+ color: white;
+
+ padding: 15px 32px;
+
+ text-align: center;
+
+ text-decoration: none;
+
+ display: inline-block;
+
+ font-size: 16px;
+
+ margin: 4px 2px;
+
+ cursor: pointer;
+}
+

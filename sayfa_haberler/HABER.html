@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+ <html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>TEKNOLOJİ</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="hf.css">
+        <!-- google fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Raleway:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+        <!-- fontawesome -->
+        <script src="https://kit.fontawesome.com/dbed6b6114.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+
+
+            <header>
+
+            <div class = "navigasyon-alanı">
+
+                <div class = "logo-buton">
+
+                    <div class = "sayfa-adı">
+
+                        <img src = "images/logom.png" alt = "">
+
+                    </div>
+
+                    <div class = "acma">
+
+                        <span>
+
+                            <i class = "fas fa-bars"></i>
+
+                        </span>
+                        
+                    </div>
+
+                    <div class = "kapama">
+                        <span>
+                            <i class = "fas fa-times"></i>
+                        </span>
+                    </div>
+                </div>
+
+                <div class = "navigasyon" id = "navigasyon">
+                    <nav>
+                        <ul>
+                            <li><a href = "../index.html">ANASAYFA</a></li>
+                            <li><a href = "../video_haber/index.html">VİDEO</a></li>
+                            <div class="dropdown">
+                            <li><a href = "">HABERLER</a></li>
+                            <div class="dropdown-content">
+                            <a href="../sayfa_haberler/HABER.html" target=”_blank” >Teknoloji</a>
+                            <a href="../sayfa_haberler/HABER.html" target=”_blank” >Sağlık</a>
+                            <a href="../sayfa_haberler/HABER.html" target=”_blank” >Spor</a>
+                            </div>
+                            </div>
+                            <li><a href = "../iletişim/index.html">İLETİŞİM</a></li>
+
+
+
+                            <li><a href = "../hakkımda/index.html" target=”_blank” >HAKKIMIZDA</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+
+        
+
+        <!-- kaynak https://www.w3schools.com/howto/howto_js_scroll_to_top.asp  -->
+<div class="up">
+
+<button onclick="topFunction()" id="myBtn" title="Go to top">YUKARI</button>
+
+<script>
+
+var mybutton = document.getElementById("myBtn");
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
+
+
+
+        <main>
+            <section class = "bolum">
+                <div class = "sol">
+                    <article>
+                        
+
+                        <a href="haberler/haber1.html"><img border="0" src = "images/kehribar.jpg"></a>
+
+                        <div>
+                            <!-- kaynak: https://www.webtekno.com/100-milyon-yil-oncesine-ait-cicek-turu-kesfedildi-h103988.html  -->
+
+                            <h3>100 Milyon Yıl Öncesine Ait Yeni Bir Çiçek Türü Keşfetti</h3>
+
+                            <p>Bilim insanları, Myanmar'da bir kehribar taşının içinde korunarak günümüze kadar ulaşmayı 
+                                başaran 100 milyon yıllık yeni bir çiçek türü keşfetti.</p>
+
+                            <br>
+                        </div>
+
+                            <a href="haberler/haber2.html"><img border="0" src = "images/mercedes.jpg"></a>
+
+                        <div>
+                            <!-- Kaynak: https://www.webtekno.com/yeni-mercedes-benz-s-serisi-turkiye-fiyati-h103901.html  -->
+
+                            <h3>Yeni Mercedes-Benz S-Serisi, Dudak Uçuklatan Fiyatıyla Türkiye’de Satışa Sunuldu</h3>
+
+                            <p>Tamamen yenilenen ve sadece lüks segmente hitap eden Mercedes-Benz S-Serisi, Türkiye'de dudak 
+                                uçuklatan fiyatıyla satışa sunuldu.</p>
+
+
+                            <br>
+                        </div>
+
+                            <a href="haberler/haber3.html"><img border="0" src = "images/formula.jpg"></a>
+
+                        <div>
+                            <!-- Kaynak: https://www.webtekno.com/formula-1-de-yilin-yarisi-turkiye-grand-prix-i-secildi-h103870.html   -->
+
+                            <h3>Formula 1'de Yılın Yarışı Türkiye Grand Prix'i Seçildi</h3>
+
+                            <p> Anket sonuçlarına göre yılın yarışı Türkiye Grand Prix oldu.</p>
+
+                            <br>
+                        </div>
+
+                    </article>
+                </div>
+            </section>
+
+            <section class = "bolum">              
+                <div class = "sag">
+                    <article>
+                        <a href="haberler/haber4.html"><img border="0" src = "images/galaxy.jpg"></a>
+                        <div>
+                            <!-- Kaynak: https://www.webtekno.com/evrendeki-en-uzak-galaksi-kesfedilmis-olabilir-h103936.html  -->
+
+
+                            <h3>Evrende Bize En Uzak Galaksi Keşfedilmiş Olabilir.</h3>
+                            <p>Tokyo Üniversitesi'nden gökbilimciler, en uzak galaksiyi keşfetme çalışmalarında yeni bir sonuç aldılar. Gökbilimciler,
+                                bugüne kadar keşfedilen en uzak galaksiyi keşfetmiş olabilirler. Galaksinin 13,4 milyar ışık yılı uzakta olduğu açıklandı.</p>
+
+
+                        </div>
+                    </article>
+
+                    <article>
+                       <a href="haberler/haber5.html"><img border="0" src = "images/uydu.jpg"></a>
+                        <div>
+                            <!-- Kayak: https://www.webtekno.com/japonya-dunyanin-ilk-ahsap-uydusunu-gelistirecek-h103846.html  -->
+                            <h3>Japonya, Dünyanın İlk Ahşap Uydusunu Geliştirmek İçin Çalışmalara Başladı</h3>
+                            <p>Japonya'da özel bir şirket ile iş birliği yapan Kyoto Üniversitesi, dünyanın ahşaptan yapılmış ilk uydusunu uzaya göndermeye çalışacak. 
+                                Planlamalar dahilinde 2023'te uzaya gönderilmesi planlanan uydu, önemli sorulara da cevap vermiş olacak.</p>
+
+                        </div>
+                    </article>
+
+                    <article>
+                         <a href="haberler/haber6.html"><img border="0" src = "images/samanyolu.jpg"></a>
+                        <div>
+                            <!-- Kaynak : https://www.webtekno.com/samanyolu-galaksisi-kendini-yok-etmis-uygarliklarla-dolu-h103719.html  -->
+                            <h3>Gökbilimciler: Samanyolu Galaksisi Kendini Yok Etmiş Uygarlıklarla Dolu</h3>
+                            <p>Cornell Üniversitesi tarafından yürütülen bir araştırma, Samanyolu Galaksisi'nde zeki uygarlıkların 6 milyar yıl önce var olduğunu ve bu uygarlıkların kendi kendini yok ettiklerini öne sürüyor.</p>
+
+
+                        </div>
+                    </article>
+
+                    <article>
+                         <a href="haberler/haber7.html"><img border="0" src = "images/space.jpg"></a>
+                        <div>
+                            <!-- Kaynak: https://www.webtekno.com/spacex-abd-casus-uydu-firlatmasi-iptal-edildi-h103588.html  -->
+                            <h3>SpaceX, ABD Casus Uydusu Fırlatma Görevini Son Saniyede İptal Etti</h3>
+                            <p>SpaceX, Falcon 9 ile gerçekleştireceği NROL-108 misyonunun fırlatmasını, son saniyelerde yaşanan bir aksaklık sebebiyle iptal etti. Fırlatmanın yarın (19 Aralık Cumartesi) gerçekleşmesi planlanıyor.</p>
+
+                        </div>
+                    </article>
+
+  
+
+                </div>
+            </section>
+        </main>
+
+          <footer>
+            <div class = "footer-alanı">
+                <div class = "footer-sol">
+                    <h2>COME TO MY GALAXY</h2>
+                    <p>Bu sayfa web tasarım dönem ödevi olarak BİLİŞİM SİSTEMLERİ MÜHENDİSLİĞİ </p>
+                    <p>3. sınıf öğrencisi olan ORHAN ÖZBEK tarafından yapılmıştır.</p>
+                </div>
+
+                <div class = "footer-sag">
+                    <h2>İLETİŞİM BİLGİLERİ</h2>
+                    <p>Mail : orhanardaozbek@gmail </p>
+                    <p>Telefon : +90555000000 </p>
+                    <p>Adres : ANKARA İŞ HANI </p>
+                </div>
+            </div>
+            <hr>
+            <p>Copyright &copy; 2025 Tüm Hakları Saklıdır </p>
+        </footer>
+
+
+
+        <script src="script.js" async defer></script>
+    </body>
+</html>

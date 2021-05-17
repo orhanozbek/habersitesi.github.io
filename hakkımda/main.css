@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.haklı{
+    font-family: 'Playfair Display', serif;
+    display: grid;
+    background-color: #f4f4f4;
+    align-content: center;
+    min-height: 100vh;
+}
+.hakk{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    min-height: 100vh;
+}
+.hakkresim{
+    background: url("person.jpeg") center/cover no-repeat;
+}
+.hakk #ozyazi {
+    margin-top: 12px;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    margin: 23px;
+}
+h1 {
+    text-transform: uppercase;
+    font-size: 36px;
+    letter-spacing: 6px;
+    opacity: 0.9;
+    margin-top: 70px;
+    text-align: center;
+}
+
+.buton{
+    text-align: center;
+}
+
+.buton-duzenle ,
+.buton-ekle{
+
+    border: 0.5px solid #777;
+    list-style: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    width: 160px;
+    text-align: center;
+    
+}
+
+/*****************/
+
+@media(max-width: 992px){
+    .hakk{
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+    .hakkresim{
+        height: 100vh;
+    }
+    .hakkbilgi {
+        height: 100vh;
+    }
+    .hakkbilgi h2 {
+        font-size: 20px;
+        margin-top: 50px;
+    }
+    .buton {
+        margin: 20px 0;
+    }
+    .hakkbilgi p {
+        font-size: 14px;
+    }
+    .buton{
+        font-size: 14px;
+    }
+    .buton{
+        margin: 5px 0;
+    }
+    .buton{
+        padding: 6px 10px;
+    }
+    .buton{
+        font-size: 15px;
+    }
+}

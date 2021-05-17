@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+    background: #fff;
+}
+
+
+.bolum img {
+    width: 100%;
+}
+
+
+.bolum a {
+    color: #000;
+    padding: 15px 0;
+    display: block;
+}
+
+
+.bolum{
+    padding: 15px 30px;
+}
+
+.bolum h3{
+    padding: 10px 0;
+    font-size: 18px;
+    font-family: var(--heading);
+}
+
+.bolum p{
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.bolum article{
+    padding: 10px;
+}
+
+.sol {
+    padding: 15px 30px;
+}
+
+.sag{
+    margin: 15px 30px;
+}
+
+
+
+@media(min-width: 800px){
+    main{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .sag {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
+
